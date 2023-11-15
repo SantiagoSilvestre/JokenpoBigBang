@@ -95,6 +95,17 @@
             app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
             app:srcCompat="@drawable/papel" />
 
+        <TextView
+            android:id="@+id/txPapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/papel"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewPapel"
+            app:layout_constraintStart_toStartOf="@+id/imageViewPapel"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPapel" />
+
         <ImageView
             android:id="@+id/imageViewLagarto"
             android:layout_width="60dp"
@@ -106,6 +117,17 @@
             app:layout_constraintStart_toEndOf="@+id/imageViewTesoura"
             app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
             app:srcCompat="@drawable/lagarto" />
+
+        <TextView
+            android:id="@+id/txtLagarto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lagarto"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewLagarto"
+            app:layout_constraintStart_toStartOf="@+id/imageViewLagarto"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLagarto" />
 
         <ImageView
             android:id="@+id/imageViewSpok"
@@ -119,6 +141,17 @@
             app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
             app:srcCompat="@drawable/spock" />
 
+        <TextView
+            android:id="@+id/txtSpock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spock"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewSpok"
+            app:layout_constraintStart_toStartOf="@+id/imageViewSpok"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSpok" />
+
         <ImageView
             android:id="@+id/imageViewTesoura"
             android:layout_width="60dp"
@@ -131,6 +164,17 @@
             app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
             app:srcCompat="@drawable/tesoura" />
 
+        <TextView
+            android:id="@+id/txtTesoura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tesoura"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewTesoura"
+            app:layout_constraintStart_toStartOf="@+id/imageViewTesoura"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTesoura" />
+
         <ImageView
             android:id="@+id/imageViewPedra"
             android:layout_width="60dp"
@@ -142,6 +186,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewResultado"
             app:srcCompat="@drawable/pedra" />
+
+        <TextView
+            android:id="@+id/txtPedra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pedra"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewPedra"
+            app:layout_constraintStart_toStartOf="@+id/imageViewPedra"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewPedra" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

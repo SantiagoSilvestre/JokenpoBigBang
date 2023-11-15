@@ -10,6 +10,11 @@
     <string name="opcao_spok">Opção spok</string>
     <string name="opcao_tesoura">Opção tesoura</string>
     <string name="opcao_pedra">Opção pedra</string>
+    <string name="pedra">Pedra</string>
+    <string name="papel">Papel</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="lagarto">Lagarto</string>
+    <string name="spock">Spock</string>
     <string name="items_rules">Regras</string>
     <string name="rules">
         * Tesoura corta papel\n
