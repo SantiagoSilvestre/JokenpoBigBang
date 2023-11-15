@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Jokenpô BigBang </string>
+    <string name="escolha_do_app">App</string>
+    <string name="escolha_do_jogador">Jogador</string>
+    <string name="app_x_jogador">X</string>
+    <string name="box_para_escolha_do_app">Box para escolha do App</string>
+    <string name="label_escolha">Escolha uma opção abaixo</string>
+    <string name="opcao_papel">opção papel</string>
+    <string name="opcao_lagarto">Opção lagarto</string>
+    <string name="opcao_spok">Opção spok</string>
+    <string name="opcao_tesoura">Opção tesoura</string>
+    <string name="opcao_pedra">Opção pedra</string>
+    <string name="items_rules">Regras</string>
+    <string name="rules">
+        * Tesoura corta papel\n
+        * Papel cobre pedra\n
+        * Pedra esmaga lagarto\n
+        * Lagarto envenena Spock\n
+        * Spock esmaga (ou derrete) tesoura\n
+        * Tesoura decapita lagarto\n
+        * Lagarto come papel\n
+        * Papel refuta Spock\n
+        * Spock vaporiza pedra\n
+        * Pedra amassa tesoura
+    </string>
+    <string name="result_perdeu">Você Perdeu ;(</string>
+    <string name="result_ganhou">Você Ganhou :)</string>
+    <string name="result_empate">Empatamos ;)</string>
+    <string name="iniciar">Iniciar</string>
+</resources>
